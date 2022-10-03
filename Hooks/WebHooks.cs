@@ -28,8 +28,8 @@ namespace TFLProject.Hooks
         [AfterScenario]
         public void AfterScenario()
         {
-            //driver.Close();
-            //driver.Quit();
+            driver.Close();
+            driver.Quit();
         }
     }
 }
